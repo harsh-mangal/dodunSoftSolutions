@@ -13,9 +13,9 @@ const Navbar = () => {
         <div className="text-gray-800 text-xl font-bold">
           <Link href="/">
             <img
-              src="https://dodumsoftsoulutions.netlify.app/assets/Logo-XCetdlUL.png"
+              src="https://ik.imagekit.io/7uve7qsipm/LOGO%20(2).png?updatedAt=1724428021795"
               alt="Logo"
-              className="h-8 w-auto"
+              className="h-12 w-auto"
             />
           </Link>
         </div>

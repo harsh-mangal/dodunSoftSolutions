@@ -106,6 +106,26 @@ const Footer = () => {
           </div>
         </div>
 
+        {/* Social Media Links */}
+        <div className="flex justify-center space-x-4 mt-8">
+          <a
+            href="https://wa.me/918968881110"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gray-500 hover:text-green-500"
+          >
+            <i className="fab fa-whatsapp fa-lg"></i>
+          </a>
+          <a
+            href="https://www.instagram.com/dodun.softsolutions"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gray-500 hover:text-pink-500"
+          >
+            <i className="fab fa-instagram fa-lg"></i>
+          </a>
+        </div>
+
         <div className="mt-8 text-center text-gray-500 text-sm">
           &copy; {new Date().getFullYear()} DODUN. All rights reserved.
         </div>
