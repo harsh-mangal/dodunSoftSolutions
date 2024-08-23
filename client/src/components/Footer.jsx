@@ -39,7 +39,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  to="/about"
+                  to="#about"
                   className="text-gray-600 hover:text-teal-500 transition-colors"
                 >
                   About Us
@@ -47,7 +47,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  to="/services"
+                  to="#services"
                   className="text-gray-600 hover:text-teal-500 transition-colors"
                 >
                   Services
@@ -55,7 +55,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  to="/teams"
+                  to="#teams"
                   className="text-gray-600 hover:text-teal-500 transition-colors"
                 >
                   Teams
@@ -63,7 +63,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  to="/contact"
+                  to="#contact"
                   className="text-gray-600 hover:text-teal-500 transition-colors"
                 >
                   Contact Us
