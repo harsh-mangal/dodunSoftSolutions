@@ -14,12 +14,7 @@ const GraphicDesign = () => {
             “There is no such thing as a boring project. There are only boring executions.” 
             We remember that whatever our project needs to do, it is a unique task that implies special undertakings to meet the client's expectations.
           </p>
-          <a
-            href="#contact"
-            className="inline-block bg-teal-500 text-white px-8 py-4 rounded-lg font-semibold hover:bg-teal-600 transition-colors transform hover:scale-105"
-          >
-            Get in Touch
-          </a>
+       
         </div>
 
         {/* Right Section: Image */}

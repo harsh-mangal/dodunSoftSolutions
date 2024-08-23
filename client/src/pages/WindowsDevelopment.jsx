@@ -15,12 +15,7 @@ const WindowsDevelopment = () => {
             We are a team of talented designers making websites and also making a place in Windows Development! 
             We help create software applications for the Windows operating system.
           </p>
-          <a
-            href="#contact"
-            className="inline-block bg-teal-500 text-white px-8 py-4 rounded-lg font-semibold hover:bg-teal-600 transition-colors transform hover:scale-105"
-          >
-            Get in Touch
-          </a>
+       
         </div>
 
         {/* Right Section: Image */}

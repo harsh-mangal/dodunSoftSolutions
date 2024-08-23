@@ -41,18 +41,7 @@ const WebDevelopment = () => {
               </tr>
             </tbody>
           </table>
-          <h2 className="text-2xl lg:text-3xl font-semibold mb-4 text-gray-800">
-            Why Choose Us?
-          </h2>
-          <p className="text-lg lg:text-xl text-gray-700 leading-relaxed transition-opacity opacity-90 hover:opacity-100">
-            Our team excels in delivering high-quality websites that not only look stunning but also drive results. Let us help you make a lasting impression online.
-          </p>
-          <a
-            href="#contact"
-            className="inline-block bg-teal-500 text-white px-8 py-4 rounded-lg font-semibold hover:bg-teal-600 transition-colors transform hover:scale-105"
-          >
-            Get in Touch
-          </a>
+         
         </div>
 
         {/* Right Section: Image */}
