@@ -1,6 +1,5 @@
 import { BrowserRouter as Router, Route, Routes, useLocation } from "react-router-dom";
 import { useEffect } from "react";
-
 import Home from "./pages/Home";
 import GraphicDesign from "./pages/GraphicDesign";
 import Digitalmarketing from "./pages/Digitalmarketing";

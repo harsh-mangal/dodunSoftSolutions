@@ -11,7 +11,7 @@ const HeroSection = () => {
           We are a team of talented designers making websites and also making a place in digital marketing!
         </p>
         <a
-          href="#learn-more"
+          href="#about"
           className="inline-block bg-teal-500 text-white px-6 py-3 rounded-lg font-semibold hover:bg-teal-600 transition-colors"
         >
           Know More
