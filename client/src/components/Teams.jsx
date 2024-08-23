@@ -25,7 +25,7 @@ const Teams = () => {
             <div className="absolute inset-0 bg-teal-500 opacity-30 transition-opacity duration-500 hover:opacity-0"></div>
             <div className="flex items-center justify-center mb-4 relative z-10">
               <img
-                src="https://dodumsoftsoulutions.netlify.app/assets/TeamMem-D0Ia_c7y.png" // Replace with the URL of Abhishek's picture
+                src="https://ik.imagekit.io/7uve7qsipm/WhatsApp%20Image%202024-08-23%20at%208.49.38%20PM%20(1).jpeg?updatedAt=1724426743587" // Replace with the URL of Abhishek's picture
                 alt="Abhishek"
                 className="w-32 h-32 object-cover rounded-full border-4 border-teal-400"
               />

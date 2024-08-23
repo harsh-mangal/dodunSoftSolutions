@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import {Link} from'react-router-dom';
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -8,16 +8,16 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-white p-4 shadow-lg fixed top-0 w-full z-50">
+    <nav className="bg-white p-4 shadow-lg fixed top-0 w-full z-50 ">
       <div className="container mx-auto flex items-center justify-between">
         <div className="text-gray-800 text-xl font-bold">
-          <a href="#home">
+          <Link href="/">
             <img
               src="https://dodumsoftsoulutions.netlify.app/assets/Logo-XCetdlUL.png"
               alt="Logo"
               className="h-8 w-auto"
             />
-          </a>
+          </Link>
         </div>
         <div className="hidden md:flex space-x-6">
           <a href="#home" className="text-gray-800 hover:text-teal-600 transition-colors">Home</a>
