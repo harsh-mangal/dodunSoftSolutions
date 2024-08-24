@@ -9,8 +9,8 @@ const Footer = () => {
           {/* Company Information */}
           <div className="mb-8 md:mb-0">
             <h2 className="text-xl font-bold mb-2 text-teal-600">DODUN</h2>
-            <p className="mb-2">GM Plaza - Best office space in Mohali</p>
-            <p className="mb-2">Phase-7, Industrial Area, Sector 73</p>
+            <p className="mb-2">GM Plaza , Phase-7</p>
+            <p className="mb-2">Industrial Area, Sector 73 , Mohali</p>
             <p className="mb-2">Phone: +91 8968881110</p>
             <p>
               Email:{" "}
