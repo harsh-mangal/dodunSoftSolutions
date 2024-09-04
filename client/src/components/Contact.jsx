@@ -27,10 +27,10 @@ const Contact = () => {
     e.preventDefault();
 
     emailjs.send(
-      'service_pza1jhe',
-      'template_se4i4i6',
+      'service_8xe5akd',
+      'template_0p93iia',
       formData,
-      'y0HF-3GM6Ad89iMZZ'
+      'G9W5GtHBcqDAJqi8Y'
     )
     .then((response) => {
       setModalContent('Message sent successfully!');
