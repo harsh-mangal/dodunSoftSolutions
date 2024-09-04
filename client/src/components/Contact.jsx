@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
 import Modal from 'react-modal';
+import AOS from 'aos'; // Import AOS if not already done
+import 'aos/dist/aos.css'; // Import AOS styles
 
 Modal.setAppElement('#root'); // This is required for screen readers
 
@@ -56,27 +58,28 @@ const Contact = () => {
   return (
     <section className="py-16 px-8 bg-gradient-to-r from-teal-100 to-white text-gray-800">
       <div className="max-w-6xl mx-auto text-center">
-        <h2 className="text-4xl font-bold text-teal-600 mb-8">Contact Us</h2>
-        <p className="text-lg text-gray-600 mb-12">
+        <h2 className="text-4xl font-bold text-teal-600 mb-8" data-aos="fade-up">
+          Contact Us
+        </h2>
+        <p className="text-lg text-gray-600 mb-12" data-aos="fade-up" data-aos-delay="200">
           We'd love to hear from you. Please reach out with any questions or feedback.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 mb-12">
-          <div className="bg-white p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105 hover:shadow-2xl">
+          <div className="bg-white p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105 hover:shadow-2xl" data-aos="fade-up" data-aos-delay="300">
             <h3 className="text-2xl font-semibold text-teal-600 mb-4">Our Address</h3>
             <p className="text-gray-700 mb-4">GM plaza,phase -7</p>
             <p className="text-gray-700">Industrial Area, Sector 73 ,Mohali</p>
           </div>
-          <div className="bg-white p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105 hover:shadow-2xl">
+          <div className="bg-white p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105 hover:shadow-2xl" data-aos="fade-up" data-aos-delay="400">
             <h3 className="text-2xl font-semibold text-teal-600 mb-4">Call Us</h3>
             <p className="text-gray-700 mb-4">+91-8968881110</p>
           </div>
-          <div className="bg-white p-6 rounded-lg shadow-lg transition-transform transform hover
-:scale-105 hover:shadow-2xl">
+          <div className="bg-white p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105 hover:shadow-2xl" data-aos="fade-up" data-aos-delay="500">
             <h3 className="text-2xl font-semibold text-teal-600 mb-4">Email Us</h3>
             <p className="text-gray-700">dodunsoftsolutions@gmail.com</p>
           </div>
         </div>
-        <div className="bg-white p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105 hover:shadow-2xl mx-auto max-w-lg">
+        <div className="bg-white p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105 hover:shadow-2xl mx-auto max-w-lg" data-aos="fade-up" data-aos-delay="600">
           <h3 className="text-2xl font-semibold text-teal-600 mb-4">Get in Touch</h3>
           <form onSubmit={handleSubmit} className="space-y-4">
             <div>

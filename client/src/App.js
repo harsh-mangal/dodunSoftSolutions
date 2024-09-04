@@ -8,14 +8,17 @@ import WindowsDevelopment from "./pages/WindowsDevelopment";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Contact from "./components/Contact";
-
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // Import AOS styles
 function ScrollToTop() {
   const { pathname } = useLocation();
 
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [pathname]);
-
+  AOS.init({
+    duration: 1000, // Animation duration
+  });
   return null;
 }
 
