@@ -7,6 +7,7 @@ import Webdevelopment from "./pages/Webdevelopment";
 import WindowsDevelopment from "./pages/WindowsDevelopment";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import Contact from "./components/Contact";
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -30,6 +31,7 @@ function App() {
           <Route path="/digitalMarketing" element={<Digitalmarketing />} />
           <Route path="/WebDevelopment" element={<Webdevelopment />} />
           <Route path="/WindowsDevelopment" element={<WindowsDevelopment />} />
+          <Route path="/Contact" element={<Contact/>}/>
         </Routes>
       </div>
       <Footer />
