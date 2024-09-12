@@ -11,16 +11,16 @@ const Navbar = () => {
     <nav className="bg-white p-4 shadow-lg fixed top-0 w-full z-50 ">
       <div className="container mx-auto flex items-center justify-between">
         <div className="text-gray-800 text-xl font-bold">
-          <Link href="/">
+          <a href="/">
             <img
               src="https://ik.imagekit.io/7uve7qsipm/LOGO%20(2).png?updatedAt=1724428021795"
               alt="Logo"
               className="h-12 w-auto"
             />
-          </Link>
+          </a>
         </div>
         <div className="hidden md:flex space-x-6">
-          <a href="#home" className="text-gray-800 hover:text-teal-600 transition-colors">Home</a>
+          <a href="/" className="text-gray-800 hover:text-teal-600 transition-colors">Home</a>
           <a href="#about" className="text-gray-800 hover:text-teal-600 transition-colors">About</a>
           <a href="#services" className="text-gray-800 hover:text-teal-600 transition-colors">Services</a>
           <a href="#teams" className="text-gray-800 hover:text-teal-600 transition-colors">Teams</a>

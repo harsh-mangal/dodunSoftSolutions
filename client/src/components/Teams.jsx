@@ -24,8 +24,8 @@ const Teams = () => {
                 className="w-32 h-32 object-cover rounded-full border-4 border-teal-400"
               />
             </div>
-            <h3 className="text-xl font-semibold mb-1">GurSimran</h3>
-            <p className="text-teal-300">Digital Marketing Head</p>
+            <h3 className="text-xl font-semibold mb-1">Gur Simran  Singh</h3>
+            <p className="text-teal-300">Social Media Head</p>
           </div>
           <div
             className="bg-gray-900 p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105 hover:shadow-2xl relative overflow-hidden"
@@ -36,7 +36,7 @@ const Teams = () => {
             <div className="flex items-center justify-center mb-4 relative z-10">
               <img
                 src="https://ik.imagekit.io/7uve7qsipm/WhatsApp%20Image%202024-08-23%20at%208.49.38%20PM%20(1).jpeg?updatedAt=1724426743587" // Replace with the URL of Abhishek's picture
-                alt="Abhishek"
+                alt="Abhishek" 
                 className="w-32 h-32 object-cover rounded-full border-4 border-teal-400"
               />
             </div>
@@ -57,7 +57,7 @@ const Teams = () => {
               />
             </div>
             <h3 className="text-xl font-semibold mb-1">Tamanna Asija</h3>
-            <p className="text-teal-300">Web Development Head</p>
+            <p className="text-teal-300"> Development Head</p>
           </div>
         </div>
       </div>
