@@ -26,11 +26,7 @@ const HeroSection = () => {
           We are a team of talented designers making websites and also making a place in digital marketing!
         </p>
         <a
-<<<<<<< HEAD
           href="#Services"
-=======
-         href="#services"
->>>>>>> a67054bd2f360bf31b73cd32afcec142e81ac18e
           className="inline-block bg-teal-500 text-white px-6 py-3 rounded-lg font-semibold hover:bg-teal-600 transition-colors"
           data-aos="zoom-in"
         >
